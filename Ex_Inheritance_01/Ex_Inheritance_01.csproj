@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C6D4150-CACB-420F-9C66-66BF5C1D57A3}</ProjectGuid>
+    <ProjectGuid>{0639DC77-4A39-4C16-91F0-6EC6C9C89C4A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ExConstructor_03</RootNamespace>
-    <AssemblyName>ExConstructor_03</AssemblyName>
+    <RootNamespace>Ex_Inheritance_01</RootNamespace>
+    <AssemblyName>Ex_Inheritance_01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalA.cs" />
+    <Compile Include="CalB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
