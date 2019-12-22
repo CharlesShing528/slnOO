@@ -27,6 +27,7 @@ namespace Ex_Poly_Override
             /* 呼叫 Person 子類別的 per.display()方法，
              * 因父類別的 dispaly()方法被覆寫，不執行 Animal父類別
              * ，改執行 子類別 Person.display()
+             */
             per.dispaly();
             Console.Read();
         }
