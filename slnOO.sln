@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExConstructor_03", "ExConst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_Inheritance_01", "Ex_Inheritance_01\Ex_Inheritance_01.csproj", "{0639DC77-4A39-4C16-91F0-6EC6C9C89C4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_Poly_Overload", "Ex_Poly_Overload\Ex_Poly_Overload.csproj", "{463A0296-D828-4183-8214-E057AD0C365D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_Poly_Override", "Ex_Poly_Override\Ex_Poly_Override.csproj", "{AED13F8B-59A9-4634-BF79-2BF8113BCA7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{0639DC77-4A39-4C16-91F0-6EC6C9C89C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0639DC77-4A39-4C16-91F0-6EC6C9C89C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0639DC77-4A39-4C16-91F0-6EC6C9C89C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463A0296-D828-4183-8214-E057AD0C365D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463A0296-D828-4183-8214-E057AD0C365D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463A0296-D828-4183-8214-E057AD0C365D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463A0296-D828-4183-8214-E057AD0C365D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED13F8B-59A9-4634-BF79-2BF8113BCA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED13F8B-59A9-4634-BF79-2BF8113BCA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED13F8B-59A9-4634-BF79-2BF8113BCA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED13F8B-59A9-4634-BF79-2BF8113BCA7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

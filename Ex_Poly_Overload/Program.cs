@@ -30,7 +30,7 @@ namespace Ex_Poly_Overload
             Console.WriteLine("{0},{1} 較大值為 {2}", n1, n2, math.GetMax(n1, n2));
 
             int[] n = { 10, 20, 30, 40, 50 };
-            // 執行 BMath  父類別的 GetMax() 方法
+            // 執行 BMath  子類別的 GetMax() 方法
             Console.WriteLine("{0},{1},{2},{3},{4} 中最大值為 {5}", n[0],n[1],n[2],n[3],n[4],math.GetMax(n));
 
             Console.Read();
