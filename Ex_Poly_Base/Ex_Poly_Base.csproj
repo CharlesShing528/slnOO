@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE580B8D-A7FD-4E51-A239-5EEE3B7C90F0}</ProjectGuid>
+    <ProjectGuid>{414D1E4C-3AAC-407A-8BCC-A2C0D11220FC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ex_Poly_Override_02</RootNamespace>
-    <AssemblyName>Ex_Poly_Override_02</AssemblyName>
+    <RootNamespace>Ex_Poly_Base</RootNamespace>
+    <AssemblyName>Ex_Poly_Base</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
