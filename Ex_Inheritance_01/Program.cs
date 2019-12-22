@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 一個父類別可衍生多個子類別，但一個子類別只能繼承一個父類別。
+/// 子類別不能繼承父類別內存取層級使用 priave 宣告的成員，
+/// 但可繼承父類別內使用 public 和 protected 宣告的成員。
+/// protected 所宣告的成員屬於保護層級的成員，除了本身類別存取外
+/// ，也允許子類別做存取。
+/// </summary>
 namespace Ex_Inheritance_01
 {
     class Program
