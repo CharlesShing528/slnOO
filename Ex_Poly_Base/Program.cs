@@ -31,6 +31,10 @@ namespace Ex_Poly_Base
             per.display();
             Console.WriteLine("-----------------------");
             ani = per;              //父類別物件參照指向子類別
+            /* ani 物件目前已參照指向 per物件，
+             * 本敘述所呼叫的display()方法，會是建立 per物件的子類別
+             * Person 的 display()方法
+             */
             ani.display();          
             Console.Read();
         }
