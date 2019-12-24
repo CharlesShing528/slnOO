@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/// <summary>
+/// 建立 CMath類別，定義多載的 GetMin 方法可傳出兩整數的最小數，
+/// 也可以傳出整數陣列元素中的最小值。
+/// </summary>
 namespace exercise_01
 {
     class Program
