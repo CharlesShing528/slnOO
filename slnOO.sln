@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_Poly_Override_02", "Ex_P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_Poly_Base", "Ex_Poly_Base\Ex_Poly_Base.csproj", "{414D1E4C-3AAC-407A-8BCC-A2C0D11220FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_Poly_CardAdd", "Ex_Poly_CardAdd\Ex_Poly_CardAdd.csproj", "{56087B59-1EED-4251-970E-AF1A61A9296F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{414D1E4C-3AAC-407A-8BCC-A2C0D11220FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414D1E4C-3AAC-407A-8BCC-A2C0D11220FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414D1E4C-3AAC-407A-8BCC-A2C0D11220FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56087B59-1EED-4251-970E-AF1A61A9296F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56087B59-1EED-4251-970E-AF1A61A9296F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56087B59-1EED-4251-970E-AF1A61A9296F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56087B59-1EED-4251-970E-AF1A61A9296F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
